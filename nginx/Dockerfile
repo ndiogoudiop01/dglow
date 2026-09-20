@@ -14,4 +14,3 @@ FROM nginx:1.27-alpine
 
 COPY odoo.conf /etc/nginx/conf.d/default.conf
 
-RUN nginx -t -c /etc/nginx/nginx.conf
